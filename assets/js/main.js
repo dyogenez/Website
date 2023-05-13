@@ -80,6 +80,7 @@
 
 				// Handle lock.
 
+			
 					// Already locked? Speed through "show" steps w/o delays.
 						if (locked || (typeof initial != 'undefined' && initial === true)) {
 

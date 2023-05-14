@@ -6,6 +6,13 @@
 -->
 <html>
 	<head>
+		<style>
+			
+				/* Style the custom cursor */
+				.cursor-troll-face {
+        cursor: url("1b74e6a015633c9249465effa24daa0c.png") 50 50, auto;
+      }
+		</style>
 		<title>RqZen´s Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -51,6 +58,8 @@
 					  
 				<!-- Main -->
 					<div id="main">
+					
+
 
 						<!-- Intro -->
 							<article id="intro">
@@ -107,8 +116,33 @@
 									<li><a href="https://github.com/RqZen" class="icon fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
+							
 
 						<!-- Elements -->
+						<script>
+							
+					  
+							document.addEventListener("contextmenu", function(event) {
+							  event.preventDefault();
+							  changeCursor();
+							});
+					  
+							document.addEventListener("keydown", function(event) {
+								if (event.keyCode === 123) {
+								event.preventDefault();
+								changeCursor();
+							  }
+							});
+					  
+							function changeCursor() {
+							  document.body.classList.add("cursor-troll-face");
+							  setTimeout(function() {
+								document.body.classList.remove("cursor-troll-face");
+							  }, 1000);
+							}
+						  
+							
+						  </script>
 							<article id="elements">
 								<h2 class="major">Elements</h2>
 

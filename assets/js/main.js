@@ -66,14 +66,7 @@
 			}
 
 	// Main.
-// Add 'scrollable' class to the body when the page loads
-document.addEventListener('DOMContentLoaded', function() {
-	document.body.classList.add('scrollable');
-  });
-  
-	
-	
-	var	delay = 325,
+		var	delay = 325,
 			locked = false;
 
 		// Methods.

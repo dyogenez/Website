@@ -39,6 +39,8 @@ blockquote, q {
 	quotes: none;
 }
 
+
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -83,6 +85,9 @@ input, select, textarea {
 
 
 
+  
+  
+  
 
 
 	@media screen and (max-width: 480px) {
